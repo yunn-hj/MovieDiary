@@ -48,28 +48,22 @@
 
 - **`MVVM(Model-View-ViewModel)`**
 
-  - `ObservableObject`를 채택한 `InfoViewModel`이 뷰의 상태 관리
-
-  - `ContentView`에서 `InfoViewModel`, `DiaryViewModel`, `LocationViewModel`을 `@StateObject`로 생성하고 `.environmentObject` 로 `environment`에 주입
-
+  - `ObservableObject`를 채택한 `ViewModel`이 뷰의 상태 관리
+  - `ContentView`에서 `ViewModel`을 `@StateObject`로 생성하고 `.environmentObject` 로 `environment`에 주입
   - 하위 뷰에서는 `@EnvironmentObject`로 의존성 공유
 
 - **`Dependency Injection(Swinject)`**
 
-  - `AppAssembly`에서 `MovieService`, `LocationService`, `InfoViewModel`, `DiaryViewModel`, `LocationViewModel`, `ContentView` 간의 의존성 정의/주입
+  - `AppAssembly`에서 `Service`, `ViewModel`, `ContentView` 간의 의존성 정의/주입
+  - `MovieDiaryApp` 진입점에서 `Assembler`와 `ModelContainer` 설정
+  - `ContentViewWrapper`에서 `Resolver`를 사용해 `ViewModel`을 생성하고 `ModelContext`를 `DiaryViewModel`에 인자로 전달
+  - `ContentView`가 `ContentViewWrapper`로부터 받은 모든 `ViewModel`을 `.environmentObject`로 주입하여 하위 뷰 어디서든 접근하도록 세팅
 
-  - `MovieDiaryApp` 진입점에서 `Assembler`와 `Container` 설정
+- **`Data & Service Layer`**
 
-- **`Service Layer`**
-
-  - `MovieService`, `LocationService`를 통해 API 네트워킹 로직 추상화
-
-  - `MovieServiceProtocol`, `LocationServiceProtocol을` 정의하여 `ViewModel`이 구체 타입이 아닌 프로토콜에 의존하도록 설계
+  - `Service`, `Protocol`을 통해 API 네트워킹 로직 추상화
+  - `DataStore`을 싱글톤으로 구현하여 앱 전역에서 단일 `ModelContainer`에 접근하도록 함
 
 - **`State Management`**
 
-  - `ViewState`(idle, loading, success, failure) 열거형을 정의하여 API 요청 상태를 명확하게 관리
-
-- **`Caching`**
-
-  - `InfoViewModel` 내 `requestWithCache` 함수를 통해 '현재 상영작'과 '인기작' 목록을 메모리에 캐시하여, 불필요한 API 호출을 줄이도록 최적화
+  - `ViewState(idle, loading, success, failure)` 열거형을 정의하여 API 요청 상태를 명확하게 관리
