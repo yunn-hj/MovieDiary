@@ -54,7 +54,7 @@
 
 - **`Dependency Injection(Swinject)`**
 
-  - `AppAssembly`에서 `Service`, `ViewModel`, `ContentView` 간의 의존성 정의/주입
+  - `AppAssembly`에서 `Service`, `ViewModel` 간의 의존성 정의/주입
   - `MovieDiaryApp` 진입점에서 `Assembler`와 `ModelContainer` 설정
   - `ContentViewWrapper`에서 `Resolver`를 사용해 `ViewModel`을 생성하고 `ModelContext`를 `DiaryViewModel`에 인자로 전달
   - `ContentView`가 `ContentViewWrapper`로부터 받은 모든 `ViewModel`을 `.environmentObject`로 주입하여 하위 뷰 어디서든 접근하도록 세팅
