@@ -72,11 +72,12 @@
 
 - 감상평
 <div align="left">
-  <img width="17%" height="17%" src="https://github.com/user-attachments/assets/4e8c2c22-109e-4b9f-b441-ed8901913fa6" />
-  <img width="17%" height="17%" src="https://github.com/user-attachments/assets/0d5f37b8-bb4a-4352-9822-492c60960734" />
-  <img width="17%" height="17%" src="https://github.com/user-attachments/assets/9db8c8e9-49cb-4f32-b0d8-56a66461e58f" />
-  <img width="17%" height="17%" src="https://github.com/user-attachments/assets/7e0d69e0-fac4-4a40-8393-3130e8961825" />
-  <img width="17%" height="17%" src="https://github.com/user-attachments/assets/2e195aeb-1047-4009-9eea-f17ccc59e90c" />
+  <img width="15%" height="15%" src="https://github.com/user-attachments/assets/4e8c2c22-109e-4b9f-b441-ed8901913fa6" />
+  <img width="15%" height="15%" src="https://github.com/user-attachments/assets/0d5f37b8-bb4a-4352-9822-492c60960734" />
+  <img width="15%" height="15%" src="https://github.com/user-attachments/assets/9db8c8e9-49cb-4f32-b0d8-56a66461e58f" />
+  <img width="15%" height="15%" src="https://github.com/user-attachments/assets/7e0d69e0-fac4-4a40-8393-3130e8961825" />
+  <img width="15%" height="15%" src="https://github.com/user-attachments/assets/2e195aeb-1047-4009-9eea-f17ccc59e90c" />
+  <img width="15%" height="15%" src="https://github.com/user-attachments/assets/0d92a25b-8d17-49a5-bdd0-29e3701482ba" />
 </div>
 </br>
 
