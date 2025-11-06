@@ -1,5 +1,5 @@
 # MovieDiary
-`TMDB API`를 활용하여 영화 정보를 탐색하고, 사진과 함께 감상평을 기록하는 iOS Native Application
+`TMDB API`를 활용하여 영화 정보를 탐색하고, 감상평을 기록하는 iOS Native Application
 
 
 
