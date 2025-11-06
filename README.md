@@ -70,6 +70,7 @@
 
 ## 스크린샷
 
+- 감상평
 <div align="left">
   <img width="17%" height="17%" src="https://github.com/user-attachments/assets/4e8c2c22-109e-4b9f-b441-ed8901913fa6" />
   <img width="17%" height="17%" src="https://github.com/user-attachments/assets/0d5f37b8-bb4a-4352-9822-492c60960734" />
@@ -77,10 +78,19 @@
   <img width="17%" height="17%" src="https://github.com/user-attachments/assets/7e0d69e0-fac4-4a40-8393-3130e8961825" />
   <img width="17%" height="17%" src="https://github.com/user-attachments/assets/2e195aeb-1047-4009-9eea-f17ccc59e90c" />
 </div>
+</br>
+
+- 영화 정보
 <div align="left">
   <img width="17%" height="17%" src="https://github.com/user-attachments/assets/4ce97ee2-8769-4af5-b51a-f4784ae73d00" />
   <img width="17%" height="17%" src="https://github.com/user-attachments/assets/372c0057-9e13-4763-8eae-55e510a30330" />
   <img width="17%" height="17%" src="https://github.com/user-attachments/assets/096160dd-13e1-4e06-bf51-507f12c6199b" />
   <img width="17%" height="17%" src="https://github.com/user-attachments/assets/808b169a-bb27-4424-aa18-293b8d4b15f1" /> 
 </div>
+</br>
 
+- 기타 차트들
+<div align="left">
+<img width="30%" height="30%" src="https://github.com/user-attachments/assets/9d96a0c8-75a4-448e-9325-be238b50425c" />
+<img width="30%" height="30%" src="https://github.com/user-attachments/assets/fb3305e2-c0d4-4333-858f-4f99811999a0" />
+</div>
